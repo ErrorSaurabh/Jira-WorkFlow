@@ -1,0 +1,189 @@
+
+.update-form-container {
+    
+    width: 100%; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.modal-content {
+    background-color: white;
+    padding: 25px; 
+    border-radius: 8px; 
+    width: 55%;
+    max-width: 700px; 
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    margin: 0 auto; 
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px; 
+    cursor: pointer;
+    color: #777; 
+    transition: color 0.2s;
+}
+
+.close:hover {
+    color: #333; 
+}
+
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content label {
+    margin-bottom: 8px; 
+    font-weight: 500; 
+    color: #555;
+}
+
+.modal-content input,
+.modal-content textarea,
+.modal-content select.input-style {
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 6px; 
+    font-size: 16px; 
+    transition: border-color 0.2s; 
+}
+
+.modal-content input:focus,
+.modal-content textarea:focus,
+.modal-content select.input-style:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.3); 
+}
+
+
+.modal-content select#role,
+.modal-content select[name="category"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: calc(100% - 20px); 
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.drop {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.drop .head {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #f9f9f9; 
+    font-size: 16px;
+    transition: background-color 0.2s; 
+}
+
+.drop .head:hover {
+    background-color: #eee; 
+}
+
+.drop .down {
+    position: absolute;
+    top: calc(100% + 2px); 
+    left: 0;
+    border-radius: 6px;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+}
+
+
+.drop .down .p {
+    padding: 12px; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s, color 0.2s; 
+}
+
+.drop .down .p:hover {
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+
+
+.scrollable-dropdown {
+    max-height: 180px; 
+    overflow-y: auto;
+}
+
+.scrollable-dropdown::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.scrollable-dropdown::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.scrollable-dropdown::-webkit-scrollbar-thumb {
+    background: #ccc; 
+    border-radius: 4px;
+}
+
+.scrollable-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #bbb;
+}
+
+
+.modal-content button[type="submit"] {
+    background-color: #5cb85c; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s; 
+}
+
+.modal-content button[type="submit"]:hover {
+    background-color: #4cae4c; 
+}
+
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    .modal-content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .modal-content input,
+    .modal-content textarea,
+    .modal-content select.input-style {
+        font-size: 14px;
+    }
+
+    .modal-content label {
+        font-size: 14px;
+    }
+
+    .modal-content button[type="submit"] {
+        font-size: 14px;
+    }
+}

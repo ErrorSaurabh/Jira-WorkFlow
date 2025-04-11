@@ -1,0 +1,91 @@
+.reg-container {
+  display: flex;
+  width: 100%;
+  min-height: 600px; 
+}
+
+.form-side {
+  width: 40%; 
+  padding: 20px;
+}
+
+.image-side {
+  width: 60%; 
+  background: url('../img/devops.png') no-repeat right;
+  background-size: cover;
+  background-position: center;
+}
+
+.join-container {
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #482d6f;
+}
+
+.dropdown {
+  position: relative;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.dropdown-header {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.dropdown-content {
+  position: absolute;
+  background: white;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.dropdown-content p {
+  padding: 10px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.dropdown-content p:hover {
+  background-color: #482d6f;
+  color: white;
+}
+
+.message {
+  font-size: 18px;
+  color: darkred;
+  margin-top: 10px;
+}

@@ -1,0 +1,96 @@
+.footer-card {
+    background-color:#0b1d43;; 
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    font-family: Arial, sans-serif; 
+    color:white;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column {
+    flex: 1; 
+    padding: 0 15px;
+  }
+  
+  .footer-column-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:white; 
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links a {
+    color:white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: block; 
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: #0052cc; 
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid white;
+  }
+  
+  .footer-copyright {
+    font-size: 0.8em;
+    color: white;
+  }
+  
+  .footer-bottom-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-bottom-links a {
+    color:white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 0.8em;
+  }
+  
+  .footer-bottom-links a:hover {
+    text-decoration: underline;
+     color: #00cc4e; 
+  }
+  
+  .footer-language-select {
+    margin-left: 15px;
+    font-size: 0.8em;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    appearance: none; 
+    background-image: url('data:image/svg+xml;utf8,<svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 5px top 50%;
+    background-size: 12px;
+    padding-right: 20px; 
+    cursor: pointer;
+  }
+  
+  .footer-logo {
+      height: 50px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+  }

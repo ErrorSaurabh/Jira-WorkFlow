@@ -1,0 +1,166 @@
+.landpage {
+  font-family: sans-serif;
+  background-color: #0B1D43;
+  color: white;
+  height: 300vh; 
+  overflow-y: hidden;
+   
+}
+
+.landpage-header {
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+.landpage-header-buttons {
+  display: flex;
+}
+
+.landpage-header-buttons button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.landpage-header-buttons button.active {
+  background-color: #33FFDA;
+  color: black;
+}
+
+
+.jira-devops {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box; 
+}
+
+.jira-diagram {
+  flex: 1;
+}
+
+.jira-diagram img {
+  width: 140%;
+  height: 140%;
+}
+
+.devops-text {
+  flex: 1;
+  margin-left: 10pc;
+}
+
+.devops-text h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.devops-text p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.explore-button {
+  background-color: #2dbaa0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.customer-benefits {
+  flex: 1;
+}
+
+.customer-benefits h3 {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+
+.benefit {
+  margin-bottom: 15px;
+}
+
+.benefit-title {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.benefit-value {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.benefit-description {
+  color: #ddd;
+}
+
+
+.landpage-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 20px;
+}
+
+.landpage-plan {
+  flex: 1;
+}
+
+.landpage-plan h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.landpage-plan p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.landpage-quote {
+  background-color: #1f3253;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.quote-author .author-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.quote-author .author-title {
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+.plan-img {
+  flex: 1;
+}
+
+.plan-img img {
+  width: 100%;
+  height: 70vh;
+  border-radius: 10px;
+}
+ 
+.lead-img{
+  height: 200vh;
+}
